@@ -12,3 +12,7 @@ while True:
     print("el precio de",cantidad,"kilos","de",frutas,"es de:",total)
   else:
      print("la fruta ingresada no existe en la lista")
+  respuestas=input("desea vender otro producto?si/no:") 
+  if respuestas=="no":
+     break
+  print("total de la compra es de:",totaldecompra)
